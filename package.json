@@ -1,0 +1,32 @@
+{
+  "name": "jweboy-utils",
+  "version": "0.0.3",
+  "description": "常用 utils 导出库",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jweboy/jweboy-utils"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:@babel/register",
+    "doc": "cd out && http-server",
+    "doc:compile": "jsdoc ./isNumber.js",
+    "format": "babel-node ./rollup.js"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "jweboy",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.10",
+    "rollup": "^1.3.0"
+  }
+}
