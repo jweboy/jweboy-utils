@@ -1,7 +1,7 @@
 import assert from 'assert';
 import isNumber from '../isNumber';
 
-describe('isNumber', function () {
+describe('isNumber', () => {
     it('should return `true` for numbers', function() {
         assert.strictEqual(isNumber(0), true);
         assert.strictEqual(isNumber(Object(0)), true);

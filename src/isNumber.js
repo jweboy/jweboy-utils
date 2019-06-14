@@ -1,5 +1,5 @@
 import isObjectLike from './isObjectLike';
-import getTypeTag from './internal/getTypeTag';
+import getTypeTag from '../internal/getTypeTag';
 
 /**
  * 检查 `value` 是否为 `Number` 类型
